@@ -1,0 +1,52 @@
+#about {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+  color: white;
+
+  .header {
+    text-align: center;
+    margin-top: 20px;
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+    }
+  }
+
+  .info {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    gap: 40px;
+    img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      margin-right: 60px;
+    }
+    .personal {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-left: solid 2px #00ffff;
+      h2 {
+        margin-left: 20px;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      p {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
