@@ -1,0 +1,15 @@
+#skills {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+  color: white;
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+  }
+}

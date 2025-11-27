@@ -1,0 +1,38 @@
+#projects {
+  padding: 0 40px;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      color: white;
+    }
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3 columns
+    gap: 24px;
+    padding: 20px;
+  }
+
+  .see-more-button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 8px 16px;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #00ffff, #9b59b6, #ffffff) 1;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .see-more-button:hover {
+    background: linear-gradient(90deg, #00ffff, #9b59b6, #ffffff);
+    color: black;
+  }
+}
