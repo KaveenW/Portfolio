@@ -7,7 +7,8 @@ import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
-
+import profile2 from "../assets/profile2.png";
+import project1 from "../assets/project1.png";
 const animeTion = (delay = 0.6) => ({
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -34,7 +35,7 @@ const Hero = () => {
 
       <div className="container">
         <motion.img
-          src="src/assets/profile2.png"
+          src={profile2}
           alt="Hero Image"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}

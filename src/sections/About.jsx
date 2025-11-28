@@ -2,6 +2,7 @@ import React from "react";
 import "./about.scss";
 import { motion } from "framer-motion";
 import Particles from "../Particles.jsx";
+import profile2 from "../assets/profile2.png";
 
 const generateAnimation = (delay = 0.6) => ({
   hidden: { opacity: 0, y: 20 },
@@ -28,7 +29,7 @@ const About = () => {
 
       <div className="info">
         <motion.img
-          src="src/assets/profile2.png"
+          src={profile2}
           alt="About Image"
           variants={generateAnimation(0.5)}
           initial="hidden"

@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.scss";
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard.jsx";
+import project1 from "../assets/project1.png";
 
 const generateAnimation = (delay = 0.6) => ({
   hidden: { opacity: 0, y: 20 },
@@ -27,25 +28,25 @@ const Projects = () => {
       </div>
       <div className="projects-grid">
         <ProjectCard
-          image="src/assets/project1.png"
+          image={project1}
           title="EmoChat"
           description="A web application that allows users to track their tasks and manage their time effectively."
           tech="React, Node.js, MongoDB"
         />
         <ProjectCard
-          image="src/assets/project1.png"
+          image={project1}
           title="CineMax"
           description="A web application that allows users to track their tasks and manage their time effectively."
           tech="React, Node.js, MongoDB"
         />
         <ProjectCard
-          image="src/assets/project1.png"
+          image={project1}
           title="FlutterFlix"
           description="A web application that allows users to track their tasks and manage their time effectively."
           tech="React, Node.js, MongoDB"
         />
         <ProjectCard
-          image="src/assets/project1.png"
+          image={project1}
           title="FlutterFlix"
           description="A web application that allows users to track their tasks and manage their time effectively."
           tech="React, Node.js, MongoDB"
