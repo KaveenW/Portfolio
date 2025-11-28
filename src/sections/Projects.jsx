@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.scss";
 import { motion } from "framer-motion";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard.jsx";
 
 const generateAnimation = (delay = 0.6) => ({
   hidden: { opacity: 0, y: 20 },

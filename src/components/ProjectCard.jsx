@@ -1,6 +1,6 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import "./projectCard.scss";
+import "./projectcard.scss";
 import { motion } from "framer-motion";
 
 const containerVariants = {
