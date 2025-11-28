@@ -13,19 +13,23 @@ const Navbar = () => {
       <div className="right">
         <div className="item">
           <FaHome className="icon" />
-          <span className="icon-name">Home</span>
+          <a href="#hero">Home</a>
         </div>
         <div className="item">
           <IoMdInformationCircle className="icon" />
-          <span>About</span>
+          <a href="#about">About</a>
         </div>
         <div className="item">
           <GiBullseye className="icon" />
-          <span>Skills</span>
+          <a href="#projects">Projects</a>
+        </div>
+        <div className="item">
+          <GiBullseye className="icon" />
+          <a href="#skills">Skills</a>
         </div>
         <div className="item">
           <IoMdContact className="icon" />
-          <span>Contact</span>
+          <a href="#contact">Contact</a>
         </div>
         <a href="public\Kaveen Wickramasinghe CV.pdf" download>
           <button className="btn">Download CV</button>

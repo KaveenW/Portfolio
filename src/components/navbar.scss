@@ -36,8 +36,10 @@
       cursor: pointer;
       color: rgb(188, 178, 178);
       font-weight: 500;
-
-      span {
+      
+      a{
+        text-decoration: none;
+        color: inherit;
         font-size: 16px;
       }
       .icon {

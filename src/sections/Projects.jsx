@@ -44,6 +44,12 @@ const Projects = () => {
           description="A web application that allows users to track their tasks and manage their time effectively."
           tech="React, Node.js, MongoDB"
         />
+        <ProjectCard
+          image="src/assets/project1.png"
+          title="FlutterFlix"
+          description="A web application that allows users to track their tasks and manage their time effectively."
+          tech="React, Node.js, MongoDB"
+        />
       </div>
       <motion.a
         variants={generateAnimation(0.3)}

@@ -1,6 +1,5 @@
 .project-card {
-  background: linear-gradient(135deg, #1a1a2e, #162447, #1f4068);
-
+  background: black;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 400px;
@@ -13,7 +12,7 @@
     object-fit: cover;
   }
   .info {
-    padding: 20px;
+    padding: 0px 20px;
     .project-title {
       display: flex;
       align-items: center;

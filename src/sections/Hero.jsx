@@ -64,10 +64,18 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
         >
-          <FaGithub className="icon" />
-          <FaLinkedin className="icon" />
-          <FaInstagram className="icon" />
-          <FaGoogle className="icon" />
+          <a href="https://github.com/KaveenW">
+            <FaGithub className="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/kaveen-wickramasinghe-b00bb72bb/">
+            <FaLinkedin className="icon" />
+          </a>
+          <a href="">
+            <FaInstagram className="icon" />
+          </a>
+          <a href="">
+            <FaGoogle className="icon" />
+          </a>
         </motion.div>
       </div>
     </section>
