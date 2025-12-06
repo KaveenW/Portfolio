@@ -1,15 +1,30 @@
 #skills {
   position: relative;
+  min-height: 100vh;
   display: flex;
-  position: relative;
   flex-direction: column;
   z-index: 2;
   color: white;
+  margin-top: 100px;
   h1 {
     text-align: center;
     margin-top: 20px;
     font-size: 36px;
     font-weight: 800;
     color: white;
+  }
+  .container {
+    width: 80%;
+    margin: 40px auto;
+    min-height: 50vh;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 40px;
+      padding: 40px;
+    }
   }
 }

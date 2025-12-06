@@ -57,10 +57,14 @@ const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            I'm Kaveen Wickramasinghe, a passionate full-stack developer with a
-            knack for crafting modern web applications. With a strong foundation
-            in both front-end and back-end technologies, I specialize in
-            creating seamless user experiences and robust server-side solutions.
+            I'm Kaveen Wickramasinghe, a passionate AI-driven Full-Stack
+            Developer specializing in building intelligent, modern web
+            applications. With a deep expertise spanning front-end engineering,
+            robust server-side architecture, and the integration of machine
+            learning models, I focus on crafting seamless user experiences
+            powered by contextual, data-driven AI solutions. My goal is to
+            create platforms that are not just functional, but genuinely smart
+            and adaptive.
           </motion.p>
         </motion.div>
       </div>

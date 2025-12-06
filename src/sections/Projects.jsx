@@ -3,6 +3,10 @@ import "./projects.scss";
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard.jsx";
 import project1 from "../assets/project1.png";
+import emochat from "../assets/emochat.png";
+import cinemax from "../assets/cinemax.png";
+import miniVersion from "../assets/miniVersion.png";
+import flutter from "../assets/flutter.png";
 
 const generateAnimation = (delay = 0.6) => ({
   hidden: { opacity: 0, y: 20 },
@@ -28,28 +32,28 @@ const Projects = () => {
       </div>
       <div className="projects-grid">
         <ProjectCard
-          image={project1}
+          image={emochat}
           title="EmoChat"
-          description="A web application that allows users to track their tasks and manage their time effectively."
-          tech="React, Node.js, MongoDB"
+          description="A smart chatbot that analyzes user emotions using NLP and provides contextual mental health support."
+          tech="Python, Kotlin, AI, ML"
         />
         <ProjectCard
-          image={project1}
+          image={cinemax}
           title="CineMax"
           description="A web application that allows users to track their tasks and manage their time effectively."
-          tech="React, Node.js, MongoDB"
+          tech="React, Typescript, HTML, CSS, TMDb API, Firebase Authentication, Firestore."
         />
         <ProjectCard
-          image={project1}
-          title="FlutterFlix"
-          description="A web application that allows users to track their tasks and manage their time effectively."
-          tech="React, Node.js, MongoDB"
+          image={miniVersion}
+          title="Mini Version Control System"
+          description="A lightweight version control tool that uses a command-line interface (CLI) to manage project states via snapshots and rollback functionality."
+          tech="Python, Hashing libraries, Serialization tools."
         />
         <ProjectCard
-          image={project1}
+          image={flutter}
           title="FlutterFlix"
-          description="A web application that allows users to track their tasks and manage their time effectively."
-          tech="React, Node.js, MongoDB"
+          description="A cross-platform movie application built with Flutter and Dart, enabling users to browse, search, and manage favorite films from a comprehensive database."
+          tech="Flutter, Dart, TMDb API, Firebase Authentication, Firestore."
         />
       </div>
       <motion.a
